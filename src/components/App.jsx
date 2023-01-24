@@ -28,6 +28,7 @@ export function App() {
       return;
     }
     fetchData(searchQuery);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchQuery, page]);
 
   const onLoadMore = () => {
