@@ -2,6 +2,7 @@ import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
 import { Gallery } from 'components/ImageGallery/ImageGallery.styled';
 import PropTypes from 'prop-types';
 
+
 export const ImageGallery = ({ items, onHandleModal }) => {
   return (
     <Gallery>

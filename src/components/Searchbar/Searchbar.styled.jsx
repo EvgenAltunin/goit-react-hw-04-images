@@ -55,8 +55,7 @@ export const Input = styled.input `
     font-size: 20px;
     border: none;
     outline: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0, 10px, 0, 10px;
     height: 100%;
 
     &::placeholder {
